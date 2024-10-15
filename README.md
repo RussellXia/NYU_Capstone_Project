@@ -2,11 +2,11 @@
 Contributors: Amy Tang, Vivian Yan, Russell Xia
 Mentors: Enes Avcu, Nick Landi, Yavuz Idug
 
-## Project Overview: Lifetime Value Model
+### Project Overview: Lifetime Value Model
 In this project, we will estimate the total value a customer will bring to a business over the entire duration of their relationship. 
 Develop a Customer Lifetime Value (LTV) model for a client: XYZ Networks.
 
-## Dataset Overview:
+### Dataset Overview
 XYZ network has 5 brands (linear channels): LimeLight (Reality TV, lifestyle, and entertainment), Pulse (Action, thriller, and adventure), ChillStream (Documentaries, nature, and travel), RetroReel (Classic films and TV shows), CineQuest (Premium films and original scripted series). Under each brand, there are 10 content titles.
 
 Also, there are 3 free brands of this XYZ networks (fast brands): Adrenaline (Action movies, extreme sports, and stunts), DarkMatter (Psychological thrillers, crime dramas, and mysteries), SilverScreen Classics (Hollywood's golden era films), TimeCapsule TV (Classic TV series and sitcoms), TasteMakers (Cooking competitions and food travel shows), DesignLab (Home improvement and interior design shows), PopCulture Now (Celebrity news, fashion, and trends). For each brand, there are 10 content titles.
