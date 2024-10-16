@@ -11,8 +11,14 @@ XYZ network has 5 brands (linear channels): LimeLight (Reality TV, lifestyle, an
 
 Also, there are 3 free brands of this XYZ networks (fast brands): Adrenaline (Action movies, extreme sports, and stunts), DarkMatter (Psychological thrillers, crime dramas, and mysteries), SilverScreen Classics (Hollywood's golden era films), TimeCapsule TV (Classic TV series and sitcoms), TasteMakers (Cooking competitions and food travel shows), DesignLab (Home improvement and interior design shows), PopCulture Now (Celebrity news, fashion, and trends). For each brand, there are 10 content titles.
 
+**Subscription Data**: customer subscription status (monthly, annual)
+**Viewership Data**: customer viewing sessions
+**Online Content Data**: customer clicking online content for all the shows that XYZ Networks has from 2022-01-01 to 2024-01-01.
 
-### Related Project links:
+### Assumptions
+
+
+### Related Project links
 1. https://github.com/mukulsinghal001/customer-lifetime-prediction-using-python
 2. https://github.com/adiag321/Customer-Lifetime-Value-Prediction-and-Segmentation-for-Online-Retail-Business (Reviewed by Amy)
 3. https://github.com/basel-ay/Customer-Lifetime-Value-Prediction (Reviewed by Vivian)
@@ -20,7 +26,7 @@ Also, there are 3 free brands of this XYZ networks (fast brands): Adrenaline (Ac
 5. https://www.kaggle.com/code/shailaja4247/customer-lifetime-value-prediction (Reviewed by Russell)
 
 
-### Related Paper:
+### Related Paper
 1. https://arxiv.org/abs/1912.07753 (Reviewed by Vivian)
 2. https://www.sciencedirect.com/science/article/pii/S2405844023005911
 3. https://www.sciencedirect.com/science/article/pii/S1877050910003868 (Reviewed by Amy)
