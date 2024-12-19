@@ -3,7 +3,7 @@ Contributors: Amy Tang, Vivian Yan, Russell Xia
 Mentors: Enes Avcu, Nick Landi, Yavuz Idug
 
 ### Project Overview: Lifetime Value Model
-In this project, we will estimate the total value a customer will bring to a business over the entire duration of their relationship. 
+In this project, we will predict the total value a customer will bring to a business over the entire duration of their relationship. 
 Develop a Customer Lifetime Value (LTV) model for a client: XYZ Networks.
 
 ### Dataset Overview
@@ -16,7 +16,16 @@ Also, there are 3 free brands of this XYZ networks (fast brands): Adrenaline (Ac
 **Online Content Data**: customer clicking online content for all the shows that XYZ Networks has from 2022-01-01 to 2024-01-01.
 
 ### Assumptions
+The only Monetary Values come from user subscribing to the channels.
 
+### Modeling Approaches
+**Goal**: Takes customers' first 6 months RFM related behaviors as the input to predict whether they will generate low mid or high values in the next 6 months in 2023.
+
+1. We conduct data preprocessing and feature engineering to generate RFM related features such as Recency, Frequency, Monetary Values, Tenure, Total Watch Time.
+2. For each dataset’s RFM feature,  apply K Means and Elbow Methods to determine the optimal clusters. After calculating RFM clusters of the 3 datasets, adding all the cluster score together to get final score and group them into 3 final segments.
+3. Build an XGBoost classifier to predict the users’ future lifetime value clusters, apply a 80 to 20 train test split.
+4. Shapley values analysis for feature impact.
+5. Customer Segmentation Analysis
 
 ### Related Project links
 1. https://github.com/mukulsinghal001/customer-lifetime-prediction-using-python
@@ -24,7 +33,6 @@ Also, there are 3 free brands of this XYZ networks (fast brands): Adrenaline (Ac
 3. https://github.com/basel-ay/Customer-Lifetime-Value-Prediction (Reviewed by Vivian)
 4. https://www.kaggle.com/code/richardnnamdi/customer-segmentation-ltv
 5. https://www.kaggle.com/code/shailaja4247/customer-lifetime-value-prediction (Reviewed by Russell)
-
 
 ### Related Paper
 1. https://arxiv.org/abs/1912.07753 (Reviewed by Vivian)
